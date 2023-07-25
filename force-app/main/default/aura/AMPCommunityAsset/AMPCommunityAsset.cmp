@@ -24,6 +24,7 @@
     <aura:attribute name="addCleanUrl" type="Boolean" default="true" access="global"/>
     <div>
         <div class="{!v.maindivclass}">
+            <!--this git commit demo-->
            <!-- <lightning:icon onclick="{!c.toggleexpansion}" size="x-small" class="{!'expandicon cursorpointer slds-float_right ' + v.iconclass}" iconName="utility:expand" alternativeText="Expand" title="Expand" />-->
             <div class="{!'pleasewaitmessage ' + v.messagevisibility}">
             	<span class="messagespan">{!v.messagetext}</span>
